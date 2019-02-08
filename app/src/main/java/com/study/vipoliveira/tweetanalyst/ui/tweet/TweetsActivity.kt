@@ -100,9 +100,6 @@ class TweetsActivity : AppCompatActivity() {
         val linearLayoutManager = LinearLayoutManager(this)
         tweet_recyclerview.layoutManager = linearLayoutManager
         tweet_recyclerview.adapter = adapter
-        val dividerItemDecoration = DividerItemDecoration(tweet_recyclerview.context,
-                linearLayoutManager.orientation)
-        tweet_recyclerview.addItemDecoration(dividerItemDecoration)
     }
 
     private fun processGoogleResponse(googleResponse: TweetResponse) {

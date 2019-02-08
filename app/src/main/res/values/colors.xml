@@ -6,5 +6,7 @@
     <color name="primaryText">#212121</color>
     <color name="secondaryText">#757575</color>
     <color name="white">#FFFFFF</color>
-
+    <color name="sad_color">#191970</color>
+    <color name="neutral_color">#757575</color>
+    <color name="happy_color">#FFFF00</color>
 </resources>

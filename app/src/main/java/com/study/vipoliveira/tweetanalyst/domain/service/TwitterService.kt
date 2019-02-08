@@ -9,6 +9,8 @@ interface TwitterService{
     @GET("/1.1/statuses/user_timeline.json")
     fun getTweets(@Query("screen_name") screenName: String,
                   @Query("include_rts") includeRts: Boolean = false,
+                  @Query("exclude_replies") excludeReplies: Boolean = true,
+                  @Query("trim_user") trimUser: String = "t",
                   @Query("count") count: Int = 50
     ): Single<MutableList<TweetResponse>>
 
