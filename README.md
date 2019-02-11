@@ -17,4 +17,4 @@ Create an app that given an Twitter username it will list user's tweets. When I 
 To execute this application, please change all the API Keys on build.gradle.
 
 
-![](images/tweet.gif | width=100)
+![](images/tweet.gif)
